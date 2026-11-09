@@ -7,7 +7,7 @@ from sentence_transformers import SentenceTransformer
 load_dotenv()
 
 MODEL = "gemini-3.1-flash-lite"  # swap for a current free model name if rejected
-TOP_K = 4
+TOP_K = 6
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 collection = chromadb.PersistentClient(path="chroma_db").get_collection("docs")

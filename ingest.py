@@ -1,11 +1,11 @@
-from pathlib import Path
+﻿from pathlib import Path
 from pypdf import PdfReader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 DATA_DIR = Path("data")
 
 
-def load_chunks(chunk_size=1000, chunk_overlap=200):
+def load_chunks(chunk_size=500, chunk_overlap=100):
     splitter = RecursiveCharacterTextSplitter(
         chunk_size=chunk_size, chunk_overlap=chunk_overlap
     )
