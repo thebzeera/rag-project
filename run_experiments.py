@@ -8,11 +8,9 @@ with open("eval_questions.json", encoding="utf-8") as f:
 
 # (chunk_size, overlap, embedding model)
 CONFIGS = [
-    (1000, 200, "all-MiniLM-L6-v2"),  # baseline
     (500, 100, "all-MiniLM-L6-v2"),
-    (1500, 300, "all-MiniLM-L6-v2"),
-    (1000, 100, "all-MiniLM-L6-v2"),
-    (1000, 300, "all-MiniLM-L6-v2"),
+    (500, 100, "BAAI/bge-small-en-v1.5"),
+    (500, 100, "sentence-transformers/all-mpnet-base-v2"),
 ]
 KS = [3, 4, 6]
 BATCH = 500
