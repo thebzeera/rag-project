@@ -2,9 +2,11 @@ import json
 import re
 from pathlib import Path
 from pypdf import PdfReader
+import unicodedata
 
 
 def norm(s):
+    s = unicodedata.normalize("NFKC", s)
     s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
     return re.sub(r"\s+", " ", s).lower()
 

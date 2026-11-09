@@ -6,7 +6,11 @@
     "evidence": "fictitious flash trades",
     "answerable": true,
     "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
-    "pages": []
+    "pages": [
+      1,
+      2,
+      3
+    ]
   },
   {
     "question": "How much did ICAP agree to pay to settle the SEC's charges?",
@@ -26,7 +30,9 @@
     "evidence": "charged five ICAP brokers",
     "answerable": true,
     "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
-    "pages": []
+    "pages": [
+      2
+    ]
   },
   {
     "question": "Why were the two senior executives charged?",
