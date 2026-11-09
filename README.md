@@ -59,7 +59,7 @@ All 33 questions were run through the full pipeline using the chosen setup (500 
 |---|---|
 | Answer accuracy (28 answerable questions) | 86% (24/28) |
 | Correct refusals (5 unanswerable questions) | 100% (5/5) |
-| Citation accuracy (a cited page matches an expected page) | 79% (22/28) with the first scoring script; [UPDATE: fixed-parser result] |
+| Citation accuracy (a cited page matches an expected page) | 82% (23/28), after fixing the parser to read multi-page citations such as "pages 2, 4, 8" |
 
 Answer accuracy was judged by a second Gemini call that compares each answer to the reference answer. I also read a sample of answers myself.
 
@@ -70,7 +70,7 @@ Four answers were wrong. For all four, I checked what was retrieved:
 - Three of them returned "I couldn't find that in the documents". In each case the text containing the answer was not in the chunks sent to the model, so the refusal was the correct behavior for the context it had. The problem was retrieval, not the model.
 - One answer was confidently wrong: a Schedule 13D has nearly identical cover pages for nine related companies, and the model reported the share count of a different company. The correct page was not retrieved.
 
-This also showed that my retrieval metric was too generous. A chunk can come from the right page without containing the answer, so I added a stricter check that measures whether the answer text itself is in the retrieved chunks: [UPDATE: result of `eval_content.py` at top-4, top-6, top-10].
+This also showed that my retrieval metric was too generous. A chunk can come from the right page without containing the answer, so I added a stricter check that measures whether the answer text itself is in the retrieved chunks. It is much lower than the page-level score: 71% (20/28) at top-4, 75% (21/28) at top-6, and 86% (24/28) at top-10. It is a lower bound, because an exact phrase split across two chunks counts as a miss, and three of the seven top-6 misses were still answered correctly. All four wrong answers were among the seven.
 
 ## Known limitations
 
@@ -83,7 +83,7 @@ This also showed that my retrieval metric was too generous. A chunk can come fro
 ## Next steps
 
 - Hybrid search (keyword plus vector) to handle exact-match items such as numbers and form names.
-- Chunking across page boundaries for tables that split between pages.
+- Retrieving more chunks (top-10) and chunking across page boundaries for tables that split between pages.
 - A larger and more varied test set.
 - A Streamlit interface and Docker deployment.
 
@@ -92,7 +92,7 @@ This also showed that my retrieval metric was too generous. A chunk can come fro
 Requires Python 3.11 or newer (tested on 3.14).
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/rag-project.git
+git clone https://github.com/thebzeera/rag-project.git
 cd rag-project
 python -m venv venv
 venv\Scripts\Activate.ps1        # Windows PowerShell; on Mac/Linux: source venv/bin/activate
@@ -122,7 +122,9 @@ python rag.py "What did the SEC charge the broker with?"
 | `rag.py` | Full pipeline: retrieve, prompt Gemini, answer with citations |
 | `eval_questions.json` | The 33 test questions with reference answers and pages |
 | `add_pages.py` | Finds the expected page numbers for each question |
-| `eval_retrieval.py` | Measures retrieval hit rate |
+| `eval_retrieval.py` | Measures retrieval hit rate (right file and page) |
+| `eval_content.py` | Measures whether the answer text itself is in the retrieved chunks |
 | `run_experiments.py` | Compares chunk sizes, overlaps, top-k and embedding models |
 | `eval_answers.py` | Runs all questions through Gemini and scores answers and refusals |
+| `rescore_citations.py` | Re-scores citations, reading multi-page citations correctly |
 | `results*.md` | Saved experiment tables |
