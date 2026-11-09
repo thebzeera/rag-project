@@ -1,24 +1,52 @@
-﻿import sys
+import re
+import sys
+import unicodedata
 import chromadb
 from dotenv import load_dotenv
 from google import genai
+from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
 
 load_dotenv()
 
-MODEL = "gemini-3.1-flash-lite"  # swap for a current free model name if rejected
-TOP_K = 6
+MODEL = "gemini-3.1-flash-lite"
+TOP_K = 10   # chunks sent to the model
+POOL = 50    # candidates taken from each search before merging
+RRF_K = 60   # reciprocal rank fusion constant
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
 collection = chromadb.PersistentClient(path="chroma_db").get_collection("docs")
 client = genai.Client()
 
+_data = collection.get(include=["documents", "metadatas"])
+IDS, DOCS, METAS = _data["ids"], _data["documents"], _data["metadatas"]
+POS = {i: n for n, i in enumerate(IDS)}
+
+
+def _tokens(s):
+    s = unicodedata.normalize("NFKC", s)
+    s = s.replace("’", "'").replace("‘", "'").replace("“", '"').replace("”", '"')
+    s = re.sub(r"\s+", " ", s).lower()
+    s = re.sub(r"(?<=\d),(?=\d)", "", s)  # 7,288,915 -> 7288915
+    return re.findall(r"\w+", s)
+
+
+BM25 = BM25Okapi([_tokens(d) for d in DOCS])
+
 
 def retrieve(question, k=TOP_K):
-    results = collection.query(
-        query_embeddings=embedder.encode([question]).tolist(), n_results=k
+    res = collection.query(
+        query_embeddings=embedder.encode([question]).tolist(), n_results=POOL
     )
-    return list(zip(results["documents"][0], results["metadatas"][0]))
+    vec = [POS[i] for i in res["ids"][0]]
+    scores = BM25.get_scores(_tokens(question))
+    kw = sorted(range(len(DOCS)), key=lambda n: -scores[n])[:POOL]
+    fused = {}
+    for ranking in (vec, kw):
+        for rank, n in enumerate(ranking):
+            fused[n] = fused.get(n, 0) + 1 / (RRF_K + rank + 1)
+    top = sorted(fused, key=lambda n: -fused[n])[:k]
+    return [(DOCS[n], METAS[n]) for n in top]
 
 
 def answer(question):

@@ -21,7 +21,7 @@ Four public SEC documents: an SEC press release on ICAP Securities, an SEC admin
 
 ## Evaluation
 
-I wrote 33 test questions from the documents: 28 that the documents can answer (each with a reference answer and the page where the fact appears) and 5 that they cannot. I used them in two ways.
+I drafted 33 test questions with an AI assistant from the documents and checked a sample of them against the source text. 28 that the documents can answer (each with a reference answer and the page where the fact appears) and 5 that they cannot. I used them in two ways.
 
 ### 1\. Retrieval tuning (no LLM calls)
 
@@ -54,7 +54,7 @@ Findings:
 
 
 
-\#### Hybrid search (keyword + vector)
+&#x20;Hybrid search (keyword + vector)
 
 
 
@@ -80,19 +80,35 @@ Keyword search helped on exact terms and numbers. Hybrid gained only 1 to 2 ques
 
 
 
+\### 2. End-to-end results (with Gemini)
 
 
-All 33 questions were run through the full pipeline using the chosen setup (500 / 100 / top-6, `gemini-3.1-flash-lite`).
 
-|Measure|Result|
-|-|-|
-|Answer accuracy (28 answerable questions)|86% (24/28)|
-|Correct refusals (5 unanswerable questions)|100% (5/5)|
-|Citation accuracy (a cited page matches an expected page)|82% (23/28), after fixing the parser to read multi-page citations such as "pages 2, 4, 8"|
+All 33 questions were run through the full pipeline with `gemini-3.1-flash-lite`. The first column used vector search with 500-character chunks and the top 6 results. The second used hybrid search (keyword plus vector) with the top 10 results.
+
+
+
+| Measure | Vector search, top-6 | Hybrid search, top-10 |
+
+|---|---|---|
+
+| Answer accuracy (28 answerable questions) | 86% (24/28) | 96% (27/28) |
+
+| Citation accuracy (a cited page matches an expected page) | 82% (23/28) | 96% (27/28) |
+
+| Correct refusals (5 unanswerable questions) | 100% (5/5) | 100% (5/5) |
+
+
+
+The second column changed two things at once (hybrid retrieval and 10 chunks instead of 6), so the gain cannot be attributed to either one alone. These are single runs on a small test set that I also used to diagnose the earlier failures, so the scores are likely optimistic compared with new questions.
+
+
 
 Answer accuracy was judged by a second Gemini call that compares each answer to the reference answer. I also read a sample of answers myself.
 
-### Failure analysis
+
+
+Failure analysis
 
 Four answers were wrong. For all four, I checked what was retrieved:
 

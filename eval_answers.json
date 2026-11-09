@@ -1,13 +1,13 @@
 [
   {
     "question": "What did the SEC charge ICAP Securities USA LLC with?",
-    "answer_given": "The SEC charged ICAP Securities USA LLC with fraud for engaging in deceptive broking activity and making material misrepresentations to customers concerning its trading activities [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 1].",
+    "answer_given": "The SEC charged ICAP Securities USA LLC with fraud for engaging in deceptive broking activity and making material misrepresentations to customers regarding its trading activities [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 1]. Specifically, the SEC found that the firm displayed thousands of fictitious flash trades to customers, misled customers regarding workup protocols for electronic trading, made false representations regarding its lack of proprietary trading, and failed to make and keep required books and records [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, pages 2, 3].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "How much did ICAP agree to pay to settle the SEC's charges?",
-    "answer_given": "ICAP agreed to pay $25 million in disgorgement and penalties to settle the SEC's charges [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2]. This total consists of $1 million in disgorgement and $24 million in penalties [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
+    "answer_given": "ICAP agreed to pay $25 million in disgorgement and penalties to settle the SEC's charges [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2]. This amount consists of $1 million in disgorgement and $24 million in penalties [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   },
@@ -19,7 +19,7 @@
   },
   {
     "question": "Why were the two senior executives charged?",
-    "answer_given": "The two senior executives were charged for failing reasonably to supervise the brokers [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
+    "answer_given": "The two senior executives, Ronald A. Purpora and Gregory F. Murphy, were charged for failing reasonably to supervise the brokers [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2]. Specifically, despite red flags, they failed to prevent and detect the brokers’ fictitious flash trades and failed to inquire into the brokers' use of manual tickets to close out positions in their house accounts [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   },
@@ -31,55 +31,55 @@
   },
   {
     "question": "Between which dates did ICAP's brokers display thousands of fictitious flash trades?",
-    "answer_given": "ICAP’s UST brokers displayed thousands of fictitious flash trades between December 2004 and December 2005 [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
+    "answer_given": "ICAP’s brokers displayed thousands of fictitious flash trades between December 2004 and December 2005 [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "Who was the former President of ICAP North America charged by the SEC?",
-    "answer_given": "Ronald A. Purpora was the former President of ICAP North America charged by the SEC [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
+    "answer_given": "The former President of ICAP North America charged by the SEC is Ronald A. Purpora [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "How much was the penalty for each broker other than Hoffman?",
-    "answer_given": "Each broker other than Hoffman has agreed to pay a $100,000 penalty [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 4].",
+    "answer_given": "The penalty for each broker other than Hoffman is $100,000 [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 4].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "Which sections of the securities laws did the SEC find ICAP willfully violated?",
-    "answer_given": "The SEC found that ICAP willfully violated Section 17(a)(2) and 17(a)(3) of the Securities Act of 1933, and Section 15C of the Securities Exchange Act of 1934 and 17 CFR Parts 404 and 405 [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
+    "answer_given": "The SEC found that ICAP willfully violated Section 17(a)(2) and 17(a)(3) of the Securities Act of 1933, Section 15C of the Securities Exchange Act of 1934, and 17 CFR Parts 404 and 405 [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "Which accounting firm audited Athene Securities' 2014 financial statements?",
-    "answer_given": "The accounting firm that audited Athene Securities' 2014 financial statements is PwC [15026448.pdf, page 4, 17].",
+    "answer_given": "PwC audited Athene Securities, LLC's 2014 financial statements [15026448.pdf, page 4].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "What was Athene Securities' net income for 2014?",
-    "answer_given": "Athene Securities' net income for 2014 was $49,715 [15026448.pdf, page 6; 15026448.pdf, page 7; 15026448.pdf, page 8].",
+    "answer_given": "Athene Securities' net income for 2014 was $49,715 [15026448.pdf, page 6, page 7, page 8].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "What was Athene Securities' net capital at December 31, 2014?",
-    "answer_given": "I couldn't find that in the documents.",
-    "correct": false,
-    "citation_ok": false
+    "answer_given": "Athene Securities' net capital at December 31, 2014, was $7,288,915 [15026448.pdf, page 11].",
+    "correct": true,
+    "citation_ok": true
   },
   {
     "question": "What was Athene Securities called before it changed its name?",
-    "answer_given": "Athene Securities, LLC was formerly known as Aviva Securities, LLC [15026448.pdf, page 9].",
+    "answer_given": "Before it changed its name, Athene Securities, LLC was known as Aviva Securities, LLC [15026448.pdf, page 9].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "What business does Athene Securities, LLC conduct?",
-    "answer_given": "Athene Securities, LLC serves as a principal underwriter/distributor for existing variable annuity insurance products [15026448.pdf, page 9]. The company is a broker-dealer [15026448.pdf, page 9, 16].",
+    "answer_given": "Athene Securities, LLC serves as a principal underwriter/distributor for existing variable annuity insurance products [15026448.pdf, page 9]. The company is a broker-dealer [15026448.pdf, page 9]. Sales of new variable annuity insurance products were discontinued in 2002 [15026448.pdf, page 9].",
     "correct": true,
     "citation_ok": true
   },
@@ -97,21 +97,21 @@
   },
   {
     "question": "Which company is the issuer in the Schedule 13D amendment?",
-    "answer_given": "I couldn't find that in the documents.",
-    "correct": false,
-    "citation_ok": false
+    "answer_given": "The issuer in the Schedule 13D amendment is Apollo Commercial Real Estate Finance, Inc. [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, page 1]",
+    "correct": true,
+    "citation_ok": true
   },
   {
     "question": "How many shares of common stock does Apollo Management Holdings, L.P. report beneficially owning, and what percentage is that?",
-    "answer_given": "Apollo Management Holdings, L.P. reports beneficially owning 1,710,355 shares of common stock, which represents 6.1% of the class [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, pages 2, 4, 8, 12].",
+    "answer_given": "I couldn't find that in the documents.",
     "correct": false,
     "citation_ok": false
   },
   {
     "question": "Why was Amendment No. 8 to Schedule 13D filed?",
-    "answer_given": "I couldn't find that in the documents.",
-    "correct": false,
-    "citation_ok": false
+    "answer_given": "Amendment No. 8 to Schedule 13D was filed to report a greater than 1% change in beneficial ownership by the Reporting Persons [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, page 14].",
+    "correct": true,
+    "citation_ok": true
   },
   {
     "question": "How many shares of common stock were outstanding when the percentages were calculated?",
@@ -146,19 +146,19 @@
   },
   {
     "question": "How much of the Connecticut state pension fund did the then-Connecticut Treasurer invest with Thayer IV in November 1998?",
-    "answer_given": "The Connecticut Treasurer increased the investment in Thayer IV to $75 million [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
+    "answer_given": "The then-Connecticut Treasurer invested $75 million of the Connecticut state pension funds with Thayer IV in November 1998 [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 2, 3].",
     "correct": true,
-    "citation_ok": false
+    "citation_ok": true
   },
   {
     "question": "What were the total payments made to the Treasurer's Associate?",
-    "answer_given": "The Treasurer's Associate received total payments of $374,500 [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
+    "answer_given": "The total payments made to the Treasurer's Associate were $374,500 [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   },
   {
     "question": "What percentage of the amount Connecticut invested was Thayer to pay the Treasurer's Associate's consulting firm?",
-    "answer_given": "Thayer was to pay the Treasurer's Associate's consulting firm 0.7% of the amount Connecticut invested [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
+    "answer_given": "Thayer agreed to pay the Treasurer's Associate's consulting firm 0.7% of the amount that Connecticut invested [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   },
@@ -176,7 +176,7 @@
   },
   {
     "question": "What did the respondents fail to disclose to the Connecticut pension funds?",
-    "answer_given": "Respondents failed to disclose material facts to the Connecticut pension funds, specifically that at the request of the Connecticut Treasurer, the Treasurer's Associate—who had no previous involvement with the proposed investment and did no meaningful work—was paid a fee in connection with the Treasurer's investment of state pension funds with Thayer IV [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, pages 2, 4].",
+    "answer_given": "The respondents failed to disclose that, at the request of the Connecticut Treasurer, they hired and paid a fee to the Treasurer's Associate in connection with the Treasurer's investment of state pension funds with Thayer IV [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, pages 2, 4]. The respondents failed to disclose that this individual had no previous involvement with the proposed investment and performed no meaningful work for the fee, which totaled nearly $375,000 [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, pages 2, 3, 4].",
     "correct": true,
     "citation_ok": false
   },
@@ -188,7 +188,7 @@
   },
   {
     "question": "To what amount was the Connecticut pension funds' investment in Thayer IV reduced after the new Treasurer took office?",
-    "answer_given": "The Connecticut pension funds' investment in Thayer IV was reduced from $75 million to $53.5 million [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
+    "answer_given": "When the new Connecticut Treasurer took office, the investment in Thayer IV was reduced from $75 million to $53.5 million [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 3].",
     "correct": true,
     "citation_ok": true
   }
