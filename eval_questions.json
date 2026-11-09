@@ -1,0 +1,348 @@
+[
+  {
+    "question": "What did the SEC charge ICAP Securities USA LLC with?",
+    "answer": "Fraud for displaying fictitious flash trades and making material misrepresentations to customers",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "fictitious flash trades",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": []
+  },
+  {
+    "question": "How much did ICAP agree to pay to settle the SEC's charges?",
+    "answer": "$25 million in disgorgement and penalties ($1 million disgorgement and $24 million penalties)",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "$25 million in disgorgement",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "How many ICAP brokers did the SEC charge with aiding and abetting the firm's fraudulent conduct?",
+    "answer": "Five",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "charged five ICAP brokers",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": []
+  },
+  {
+    "question": "Why were the two senior executives charged?",
+    "answer": "For failing reasonably to supervise the brokers",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "failing reasonably to supervise the brokers",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "What were the fictitious flash trades also known as?",
+    "answer": "'Bird' trades",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "also known as",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      1
+    ]
+  },
+  {
+    "question": "Between which dates did ICAP's brokers display thousands of fictitious flash trades?",
+    "answer": "Between December 2004 and December 2005",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "between December 2004 and December 2005",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "Who was the former President of ICAP North America charged by the SEC?",
+    "answer": "Ronald A. Purpora",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "former President of ICAP North America",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "How much was the penalty for each broker other than Hoffman?",
+    "answer": "$100,000 (Hoffman agreed to pay $50,000)",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "a $100,000 penalty",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      4
+    ]
+  },
+  {
+    "question": "Which sections of the securities laws did the SEC find ICAP willfully violated?",
+    "answer": "Sections 17(a)(2) and 17(a)(3) of the Securities Act of 1933, Section 15C of the Exchange Act, and 17 CFR Parts 404 and 405",
+    "source": "SEC Charges U.S. Subsidiary",
+    "evidence": "willfully violated Section 17(a)(2)",
+    "answerable": true,
+    "source_file": "SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "question": "Which accounting firm audited Athene Securities' 2014 financial statements?",
+    "answer": "PricewaterhouseCoopers LLP",
+    "source": "15026448",
+    "evidence": "PricewaterhouseCoopers LLP",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      1,
+      4,
+      17
+    ]
+  },
+  {
+    "question": "What was Athene Securities' net income for 2014?",
+    "answer": "$49,715",
+    "source": "15026448",
+    "evidence": "49,715",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      6,
+      7,
+      8
+    ]
+  },
+  {
+    "question": "What was Athene Securities' net capital at December 31, 2014?",
+    "answer": "$7,288,915 (required $5,000; excess $7,283,915)",
+    "source": "15026448",
+    "evidence": "7,288,915",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      11,
+      14
+    ]
+  },
+  {
+    "question": "What was Athene Securities called before it changed its name?",
+    "answer": "Aviva Securities, LLC",
+    "source": "15026448",
+    "evidence": "Aviva Securities",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      9
+    ]
+  },
+  {
+    "question": "What business does Athene Securities, LLC conduct?",
+    "answer": "Principal underwriter/distributor for existing variable annuity insurance products; new sales were discontinued in 2002",
+    "source": "15026448",
+    "evidence": "variable annuity insurance products",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      9
+    ]
+  },
+  {
+    "question": "What were Athene Securities' total assets at December 31, 2014?",
+    "answer": "$7,589,649",
+    "source": "15026448",
+    "evidence": "7,589,649",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      5
+    ]
+  },
+  {
+    "question": "What is the maximum allowed ratio of aggregate indebtedness to net capital for Athene Securities?",
+    "answer": "15 to 1",
+    "source": "15026448",
+    "evidence": "15 to 1",
+    "answerable": true,
+    "source_file": "15026448.pdf",
+    "pages": [
+      11
+    ]
+  },
+  {
+    "question": "Which company is the issuer in the Schedule 13D amendment?",
+    "answer": "Apollo Commercial Real Estate Finance, Inc.",
+    "source": "1527487",
+    "evidence": "Apollo Commercial Real Estate Finance, Inc.",
+    "answerable": true,
+    "source_file": "sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf",
+    "pages": [
+      1,
+      14
+    ]
+  },
+  {
+    "question": "How many shares of common stock does Apollo Management Holdings, L.P. report beneficially owning, and what percentage is that?",
+    "answer": "1,811,721 shares, 6.5%",
+    "source": "1527487",
+    "evidence": "1,811,721 shares",
+    "answerable": true,
+    "source_file": "sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf",
+    "pages": [
+      9,
+      10
+    ]
+  },
+  {
+    "question": "Why was Amendment No. 8 to Schedule 13D filed?",
+    "answer": "To report a greater than 1% change in beneficial ownership by the Reporting Persons",
+    "source": "1527487",
+    "evidence": "greater than 1% change in beneficial ownership",
+    "answerable": true,
+    "source_file": "sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf",
+    "pages": [
+      14
+    ]
+  },
+  {
+    "question": "How many shares of common stock were outstanding when the percentages were calculated?",
+    "answer": "28,044,106 shares",
+    "source": "1527487",
+    "evidence": "28,044,106",
+    "answerable": true,
+    "source_file": "sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf",
+    "pages": [
+      14
+    ]
+  },
+  {
+    "question": "What is the capital of France?",
+    "answer": null,
+    "source": null,
+    "evidence": null,
+    "answerable": false
+  },
+  {
+    "question": "What was Athene Securities' revenue in 2023?",
+    "answer": null,
+    "source": null,
+    "evidence": null,
+    "answerable": false
+  },
+  {
+    "question": "Who is the chief executive officer of ICAP plc?",
+    "answer": null,
+    "source": null,
+    "evidence": null,
+    "answerable": false
+  },
+  {
+    "question": "What is the current stock price of Apollo Commercial Real Estate Finance?",
+    "answer": null,
+    "source": null,
+    "evidence": null,
+    "answerable": false
+  },
+  {
+    "question": "How many employees does Athene Securities have?",
+    "answer": null,
+    "source": null,
+    "evidence": null,
+    "answerable": false
+  },
+  {
+    "question": "How much of the Connecticut state pension fund did the then-Connecticut Treasurer invest with Thayer IV in November 1998?",
+    "answer": "$75 million",
+    "source": "Thayer Capital Partners",
+    "evidence": "invested $75 million of the Connecticut state pension",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "What were the total payments made to the Treasurer's Associate?",
+    "answer": "$374,500",
+    "source": "Thayer Capital Partners",
+    "evidence": "total payments of $374,500",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "question": "What percentage of the amount Connecticut invested was Thayer to pay the Treasurer's Associate's consulting firm?",
+    "answer": "0.7%",
+    "source": "Thayer Capital Partners",
+    "evidence": "0.7% of the amount Connecticut invested",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      3
+    ]
+  },
+  {
+    "question": "What civil money penalty was Thayer ordered to pay?",
+    "answer": "$150,000",
+    "source": "Thayer Capital Partners",
+    "evidence": "Thayer shall pay a civil money penalty in the amount of $150,000",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      5
+    ]
+  },
+  {
+    "question": "What civil money penalty was Frederic V. Malek ordered to pay?",
+    "answer": "$100,000",
+    "source": "Thayer Capital Partners",
+    "evidence": "Malek shall pay a civil money penalty in the amount of $100,000",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      5
+    ]
+  },
+  {
+    "question": "What did the respondents fail to disclose to the Connecticut pension funds?",
+    "answer": "That a consultant with no previous involvement was paid a fee, at the Treasurer's request, for no meaningful work",
+    "source": "Thayer Capital Partners",
+    "evidence": "failed to disclose this arrangement to the Connecticut pension funds",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "How much money does Thayer, the Washington, DC private equity firm, manage in funds?",
+    "answer": "Over $1.2 billion",
+    "source": "Thayer Capital Partners",
+    "evidence": "manages funds totaling over $1.2 billion",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      2
+    ]
+  },
+  {
+    "question": "To what amount was the Connecticut pension funds' investment in Thayer IV reduced after the new Treasurer took office?",
+    "answer": "$53.5 million (from $75 million)",
+    "source": "Thayer Capital Partners",
+    "evidence": "from $75 million to $53.5 million",
+    "answerable": true,
+    "source_file": "SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf",
+    "pages": [
+      3
+    ]
+  }
+]

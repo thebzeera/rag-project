@@ -1,18 +1,33 @@
-import sys
-import chromadb
+﻿import chromadb
 from sentence_transformers import SentenceTransformer
+from ingest import load_chunks
 
-question = " ".join(sys.argv[1:]) or "What is this document about?"
+chunks = load_chunks()
+print(f"Loaded {len(chunks)} chunks")
+
+if not chunks:
+    raise SystemExit("No chunks found. Check the PDFs in the data folder.")
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
+embeddings = model.encode(
+    [c["text"] for c in chunks], show_progress_bar=True
+).tolist()
+
 client = chromadb.PersistentClient(path="chroma_db")
+try:
+    client.delete_collection("docs")
+except Exception:
+    pass
+collection = client.create_collection("docs")
 
-collection = client.get_or_create_collection(name="docs")
-results = collection.query(
-    query_embeddings=model.encode([question]).tolist(), n_results=3
-)
+BATCH = 500
+for i in range(0, len(chunks), BATCH):
+    batch = chunks[i : i + BATCH]
+    collection.add(
+        ids=[f"chunk-{i + j}" for j in range(len(batch))],
+        documents=[c["text"] for c in batch],
+        embeddings=embeddings[i : i + BATCH],
+        metadatas=[{"source": c["source"], "page": c["page"]} for c in batch],
+    )
 
-for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
-    print(f"--- {meta['source']} (page {meta['page']})")
-    print(doc[:300].replace("\n", " "))
-    print()
+print(f"Stored {collection.count()} chunks in Chroma")
