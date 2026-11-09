@@ -1,0 +1,95 @@
+[
+  {
+    "question": "Which ICAP operations chief was charged for failing to supervise the brokers?",
+    "answer_given": "Gregory F. Murphy, the Chief Operating Officer of ICAP, was charged for failing to supervise the brokers [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2, 3].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "For how many months were the charged brokers barred from working at a broker or dealer?",
+    "answer_given": "The brokers charged by the SEC agreed to be suspended from association with any broker or dealer for a period of three months [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
+    "correct": true,
+    "citation_ok": false
+  },
+  {
+    "question": "Which SEC enforcement official is quoted in the ICAP announcement?",
+    "answer_given": "The SEC enforcement official quoted in the announcement is Lorin L. Reisner, Deputy Director of the SEC’s Division of Enforcement [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 2].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "What did ICAP tell regulators about whether it trades for its own account?",
+    "answer_given": "ICAP’s regulatory filings stated that the firm \"does not engage in proprietary trading\" [SEC.gov _ SEC Charges U.S. Subsidiary of World’s Largest Inter-Dealer Broker for Displaying Fictitious Trades and Misleading Customers.pdf, page 3].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "What street address does Athene Securities give for its business?",
+    "answer_given": "The principal place of business for Athene Securities, LLC is 841 Apollo Street, Suite 150 [15026448.pdf, page 1].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How much cash did Athene Securities hold at the end of 2014?",
+    "answer_given": "Athene Securities held $3,066,258 in cash and cash equivalents at the end of 2014 [15026448.pdf, page 5, 8].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "What was the accumulated deficit on Athene Securities' balance sheet at year-end 2014?",
+    "answer_given": "The accumulated deficit for Athene Securities, LLC at year-end 2014 was $(1,725,661) [15026448.pdf, pages 5, 7].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "Which body issued the August 2014 guidance about assessing whether a company can keep operating?",
+    "answer_given": "The FASB issued the guidance in August 2014 regarding an entity's evaluation of its ability to continue as a going concern [15026448.pdf, page 9].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "In which jurisdiction is Athene Holding Ltd. incorporated?",
+    "answer_given": "Athene Holding Ltd. is incorporated in the Island of Bermuda [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, page 14].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How many shares of the issuer does ACREFI Management, the issuer's manager, hold of record?",
+    "answer_given": "ACREFI Management, LLC holds 101,366 shares of record [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, page 14].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How many shares held by Apollo Principal Holdings I are left out of the reported totals?",
+    "answer_given": "The shares of Common Stock reported as beneficially owned in this Amendment No. 8 to Schedule 13D do not include 460,000 shares of Common Stock owned of record by Apollo Principal Holdings I, L.P. [sec.gov_Archives_edgar_data_1527487_000110465912085572_a12-29865_1sc13da.htm.pdf, page 14].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How old is Frederic Malek and in which town does he live?",
+    "answer_given": "Frederic Malek is 67 years old and resides in McLean, Virginia [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 2].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How big is the private equity fund in which the Connecticut pension funds invested?",
+    "answer_given": "The private equity fund in which the Connecticut pension funds invested (Thayer IV) is an $880 million fund [SEC.gov _ Thayer Capital Partners, TC Equity Partners IV, L.L.C., TC Management Partners IV, L.L.C., and Frederic V. Malek.pdf, page 2].",
+    "correct": true,
+    "citation_ok": true
+  },
+  {
+    "question": "How many employees does Thayer Capital Partners have?",
+    "answer_given": "I couldn't find that in the documents.",
+    "correctly_refused": true
+  },
+  {
+    "question": "What was Apollo Commercial Real Estate Finance's net income for 2012?",
+    "answer_given": "I couldn't find that in the documents.",
+    "correctly_refused": true
+  },
+  {
+    "question": "In which year was Athene Securities founded?",
+    "answer_given": "I couldn't find that in the documents.",
+    "correctly_refused": true
+  }
+]

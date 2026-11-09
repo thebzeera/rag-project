@@ -1,0 +1,18 @@
+[
+{"question":"Which ICAP operations chief was charged for failing to supervise the brokers?","answer":"Gregory F. Murphy, the Chief Operating Officer of ICAP","source":"SEC Charges U.S. Subsidiary","evidence":"Gregory F. Murphy, the Chief Operating Officer","answerable":true},
+{"question":"For how many months were the charged brokers barred from working at a broker or dealer?","answer":"Three months","source":"SEC Charges U.S. Subsidiary","evidence":"a period of three months","answerable":true},
+{"question":"Which SEC enforcement official is quoted in the ICAP announcement?","answer":"Lorin L. Reisner, Deputy Director of the SEC's Division of Enforcement","source":"SEC Charges U.S. Subsidiary","evidence":"Lorin L. Reisner","answerable":true},
+{"question":"What did ICAP tell regulators about whether it trades for its own account?","answer":"That it does not engage in proprietary trading (the SEC found this misleading)","source":"SEC Charges U.S. Subsidiary","evidence":"does not engage in proprietary trading","answerable":true},
+{"question":"What street address does Athene Securities give for its business?","answer":"841 Apollo Street, Suite 150","source":"15026448","evidence":"841 Apollo Street, Suite 150","answerable":true},
+{"question":"How much cash did Athene Securities hold at the end of 2014?","answer":"$3,066,258","source":"15026448","evidence":"3,066,258","answerable":true},
+{"question":"What was the accumulated deficit on Athene Securities' balance sheet at year-end 2014?","answer":"$1,725,661","source":"15026448","evidence":"(1,725,661)","answerable":true},
+{"question":"Which body issued the August 2014 guidance about assessing whether a company can keep operating?","answer":"The FASB (guidance on going concern)","source":"15026448","evidence":"the FASB issued new guidance regarding","answerable":true},
+{"question":"In which jurisdiction is Athene Holding Ltd. incorporated?","answer":"Bermuda","source":"1527487","evidence":"in the Island of Bermuda","answerable":true},
+{"question":"How many shares of the issuer does ACREFI Management, the issuer's manager, hold of record?","answer":"101,366 shares","source":"1527487","evidence":"101,366 shares held of record by ACREFI Management","answerable":true},
+{"question":"How many shares held by Apollo Principal Holdings I are left out of the reported totals?","answer":"460,000 shares","source":"1527487","evidence":"460,000 shares of Common Stock","answerable":true},
+{"question":"How old is Frederic Malek and in which town does he live?","answer":"67, McLean, Virginia","source":"Thayer Capital Partners","evidence":"Malek, age 67, is a resident of McLean, Virginia","answerable":true},
+{"question":"How big is the private equity fund in which the Connecticut pension funds invested?","answer":"$880 million (Thayer IV)","source":"Thayer Capital Partners","evidence":"an $880 million private equity fund","answerable":true},
+{"question":"How many employees does Thayer Capital Partners have?","answer":null,"source":null,"evidence":null,"answerable":false},
+{"question":"What was Apollo Commercial Real Estate Finance's net income for 2012?","answer":null,"source":null,"evidence":null,"answerable":false},
+{"question":"In which year was Athene Securities founded?","answer":null,"source":null,"evidence":null,"answerable":false}
+]
