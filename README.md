@@ -104,6 +104,8 @@ After tuning, I wrote 16 new questions (13 answerable, 3 not) that were worded d
 
 This is a small set drawn from the same four documents, with questions and reference answers drafted with an AI assistant, so it shows the system generalizes to new questions on this corpus, not that it is 100% accurate in general.
 
+The one citation miss was a correct answer whose supporting sentence spans pages 3 and 4: the model cited page 3, where the sentence begins, while my reference listed page 4. Chunking page by page splits sentences that cross a page break.
+
 
 
 ### Failure analysis
